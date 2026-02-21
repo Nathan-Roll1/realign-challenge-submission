@@ -1,0 +1,84 @@
+{
+  "models": [
+    {
+      "model_name": "aimv2_1b_patch14_224.apple_pt",
+      "layer_name": "fc_norm"
+    },
+    {
+      "model_name": "beit_base_patch16_224.in22k_ft_in22k",
+      "layer_name": "fc_norm"
+    },
+    {
+      "model_name": "beitv2_base_patch16_224.in1k_ft_in1k",
+      "layer_name": "fc_norm"
+    },
+    {
+      "model_name": "cait_m36_384.fb_dist_in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "convit_base.fb_in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "crossvit_15_240.in1k",
+      "layer_name": "norm.1"
+    },
+    {
+      "model_name": "davit_base.msft_in1k",
+      "layer_name": "head.global_pool"
+    },
+    {
+      "model_name": "deit3_base_patch16_224.fb_in1k",
+      "layer_name": "fc_norm"
+    },
+    {
+      "model_name": "flexivit_base.1000ep_in21k",
+      "layer_name": "fc_norm"
+    },
+    {
+      "model_name": "gcvit_base.in1k",
+      "layer_name": "head.global_pool"
+    },
+    {
+      "model_name": "maxvit_base_tf_224.in1k",
+      "layer_name": "head.global_pool"
+    },
+    {
+      "model_name": "mvitv2_base.fb_in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "nest_base_jx.goog_in1k",
+      "layer_name": "global_pool"
+    },
+    {
+      "model_name": "nextvit_base.bd_in1k",
+      "layer_name": "head.global_pool"
+    },
+    {
+      "model_name": "pit_b_224.in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "pvt_v2_b0.in1k",
+      "layer_name": "stages.3.norm"
+    },
+    {
+      "model_name": "tnt_s_patch16_224",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "twins_pcpvt_base.in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "volo_d1_224.sail_in1k",
+      "layer_name": "norm"
+    },
+    {
+      "model_name": "xcit_large_24_p16_224.fb_dist_in1k",
+      "layer_name": "norm"
+    }
+  ]
+}

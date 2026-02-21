@@ -1,0 +1,12 @@
+The Re-Align Hackathon
+ICLR 2026 Workshop on Representational Alignment
+
+Workshop Homepage
+Challenge Overview
+Welcome to the ICLR 2026 Re-Align Hackathon! The goal of this challenge is to understand what properties of vision models and data leads to convergences and divergences in representational alignment. Participants have the choice of two distinct submission tracks with complementary objectives:
+
+Blue Team — Find a set of 20 models with the most aligned representations.
+Red Team — Find 1000 images that lead to maximally divergent model representations.
+You will have to select from a set of pre-curated models and datasets described below. Alignment will be measured using Centered Kernel Alignment (CKA) computed on embeddings extracted from a fixed set of held-out images. While the submissions will be evaluated strictly using this metric on a fixed internal evaluation dataset, you are free to use any dataset and metric in arriving at your final list of models or images for the submission.
+
+Please carefully read the Getting Started section below before making your submission. Good luck!

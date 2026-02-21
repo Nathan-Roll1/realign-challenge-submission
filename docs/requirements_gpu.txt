@@ -1,0 +1,21 @@
+# Core ML dependencies
+torch>=2.1.0
+torchvision>=0.16.0
+timm>=1.0.0
+
+# Numerical/scientific
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# HuggingFace (for submission + proxy image download)
+huggingface_hub>=0.20.0
+datasets>=2.16.0
+
+# Cloud GPU (optional - only needed for run_on_modal.py)
+# modal>=0.60.0

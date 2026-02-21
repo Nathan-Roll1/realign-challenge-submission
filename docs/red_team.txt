@@ -1,0 +1,11 @@
+Red Team — Maximize Divergence
+Select exactly 1000 stimuli from the provided stimuli catalog that cause the fixed set of models to produce divergent representations. Your score is 1 − avg CKA — higher divergence ranks higher.
+
+All 1000 images must come from the stimuli catalog (available datasets: imagenet_val, objectnet).
+
+How to submit:
+
+Create a HuggingFace dataset with dataset_name and image_identifier columns (exactly 1000 rows) (see Getting Started section for details)
+Paste the dataset link below and click Generate JSON
+Review the generated JSON, then click Submit
+⚠️ Important: Only submit when the HuggingFace Space status shows Running above the page. Submissions made while the Space is still building or sleeping may fail.

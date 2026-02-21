@@ -1,0 +1,2963 @@
+[
+  {
+    "model_name": "aimv2_1b_patch14_224.apple_pt",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.481,
+        0.458,
+        0.408
+      ],
+      "std": [
+        0.269,
+        0.261,
+        0.276
+      ]
+    }
+  },
+  {
+    "model_name": "bat_resnext26ts.ch_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 284,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "beit_base_patch16_224.in22k_ft_in22k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "beitv2_base_patch16_224.in1k_ft_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "botnet26t_256.c1_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "caformer_b36.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "cait_m36_384.fb_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 384,
+      "crop": 384,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "coat_lite_medium.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm4",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "coatnet_0_rw_224.sw_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "coatnext_nano_rw_224.sw_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "convformer_b36.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "convit_base.fb_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "convmixer_1024_20_ks9_p14.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "pooling",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 233,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "convnext_atto.d2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "convnextv2_atto.fcmae",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "crossvit_15_240.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm.1",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 274,
+      "crop": 240,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "cs3darknet_focus_l.c2ns_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "cspdarknet53.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "cspresnet50.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "cspresnext50.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "darknet53.c2ns_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "darknetaa53.c2ns_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 289,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "davit_base.msft_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "deit3_base_patch16_224.fb_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "densenet121.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "densenetblur121d.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "dla102.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "dm_nfnet_f0.dm_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 213,
+      "crop": 192,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "dpn107.mx_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.486,
+        0.459,
+        0.408
+      ],
+      "std": [
+        0.235,
+        0.235,
+        0.235
+      ]
+    }
+  },
+  {
+    "model_name": "eca_botnext26ts_256.c1_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "ecaresnet101d.miil_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "ecaresnetlight.miil_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "edgenext_base.in21k_ft_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "efficientformer_l1.snap_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "efficientformerv2_l.snap_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "efficientnet_b0.ra4_e3600_r224_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "efficientnetv2_rw_m.agc_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 320,
+      "crop": 320,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "efficientvit_b0.r224_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "ese_vovnet19b_dw.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "eva02_base_patch14_224.mim_in22k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.481,
+        0.458,
+        0.408
+      ],
+      "std": [
+        0.269,
+        0.261,
+        0.276
+      ]
+    }
+  },
+  {
+    "model_name": "fastvit_ma36.apple_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "fbnetc_100.rmsp_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "fbnetv3_b.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "flexivit_base.1000ep_in21k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 253,
+      "crop": 240,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "focalnet_base_lrf.ms_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gc_efficientnetv2_rw_t.agc_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gcresnet33ts.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 284,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gcresnext26ts.ch_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 284,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gcvit_base.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gernet_l.idstcv_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 293,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "ghostnet_100.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "ghostnetv2_100.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gmixer_24_224.ra3_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "gmlp_s16_224.ra3_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "halo2botnet50ts_256.a1h_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "halonet26t.a1h_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "haloregnetz_b.ra3_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 238,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "hardcorenas_a.miil_green_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "hgnet_base.ssld_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 232,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "hgnetv2_b0.ssld_stage1_in22k_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 232,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "hiera_base_224.mae",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "hrnet_w18.ms_aug_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "inception_next_atto.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "lambda_resnet26rpt_256.c1_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 272,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "lamhalobotnet50ts_256.a1h_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "lcnet_050.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "legacy_senet154.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "levit_128.fb_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.bn",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "mambaout_base.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "maxvit_base_tf_224.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "maxxvit_rmlp_nano_rw_256.sw_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "maxxvitv2_nano_rw_256.sw_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "mixer_b16_224.goog_in21k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "mixnet_l.ft_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "mnasnet_100.rmsp_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "mobilenetv1_100.ra4_e3600_r224_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "mobileone_s0.apple_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "mobilevit_s.cvnets_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 284,
+      "crop": 256,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "model_name": "mobilevitv2_050.cvnets_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 288,
+      "crop": 256,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "model_name": "mvitv2_base.fb_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "nasnetalarge.tf_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 363,
+      "crop": 331,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "nest_base_jx.goog_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "nextvit_base.bd_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "nf_regnet_b1.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 284,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "nfnet_l0.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "pit_b_224.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "pnasnet5large.tf_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 363,
+      "crop": 331,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "poolformer_m36.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "poolformerv2_m36.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "pvt_v2_b0.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "stages.3.norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "rdnet_base.nv_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "regnetv_040.ra3_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "regnetx_002.pycls_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "regnety_002.pycls_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "regnetz_040.ra3_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "repghostnet_050.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "repvgg_a0.rvgg_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "repvit_m0_9.dist_300e_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.head.bn",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "res2net101_26w_4s.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resmlp_12_224.fb_dino",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnest101e.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 293,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnet101.a1_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnetaa101d.sw_in12k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnetblur50.bt_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnetrs101.tf_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 204,
+      "crop": 192,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "resnetv2_101.a1h_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "resnext101_32x16d.fb_ssl_yfcc100m_ft_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "rexnet_100.nav_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "rexnetr_200.sw_in12k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "sam2_hiera_base_plus.fb_r896",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 896,
+      "crop": 896,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "samvit_base_patch16.sa1b",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 1024,
+      "crop": 1024,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "sebotnet33ts_256.a1h_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 272,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "sehalonet33ts.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 272,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "selecsls42b.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "semnasnet_075.rmsp_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "senet154.gluon_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "sequencer2d_l.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "seresnet152d.ra2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 269,
+      "crop": 256,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "seresnext101_32x4d.gluon_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "seresnextaa101d_32x8d.ah_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "skresnet18.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "skresnext50_32x4d.ra_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "spnasnet_100.rmsp_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "swin_base_patch4_window12_384.ms_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 384,
+      "crop": 384,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "swinv2_base_window12_192.ms_in22k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 213,
+      "crop": 192,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "test_byobnet.r160_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 168,
+      "crop": 160,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "tf_efficientnet_b0.aa_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "tiny_vit_11m_224.dist_in22k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 236,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "tinynet_a.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 219,
+      "crop": 192,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "tnt_s_patch16_224",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "tresnet_l.miil_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "model_name": "twins_pcpvt_base.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "vgg11.tv_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 256,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "visformer_small.in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "vit_base_mci_224.apple_mclip",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "model_name": "vitamin_base_224.datacomp1b_clip",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "fc_norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 249,
+      "crop": 224,
+      "mean": [
+        0.481,
+        0.458,
+        0.408
+      ],
+      "std": [
+        0.269,
+        0.261,
+        0.276
+      ]
+    }
+  },
+  {
+    "model_name": "volo_d1_224.sail_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 233,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "wide_resnet101_2.tv2_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 201,
+      "crop": 176,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  {
+    "model_name": "xception41.tf_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "head.global_pool",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 331,
+      "crop": 299,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "model_name": "xcit_large_24_p16_224.fb_dist_in1k",
+    "source": "timm",
+    "weights": "imagenet",
+    "layer": "norm",
+    "embedding": "flatten",
+    "preprocess": {
+      "resize": 224,
+      "crop": 224,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  }
+]

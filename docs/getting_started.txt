@@ -1,0 +1,91 @@
+Getting Started
+To participate in the hackathon, you can either submit a list of 20 models (Blue Team) or a set of 1000 images (Red Team). Each submission will be scored and ranked on the respective team's leaderboard. Submissions can be made by clicking on the team tabs above.
+
+Note that to be considered a valid submission, participants must also submit a Markdown formatted report on OpenReview detailing their model/image selection process along with any relevant graphs and figures.
+
+Model Suite
+We have pre-selected a suite of vision models from which Blue Team participants can choose their set of 20. The full model suite along with metadata including which layer embeddings must be extracted from and preprocessing parameters can be downloaded using this link.
+
+Datasets
+Images can be selected from either the ObjectNet dataset or ImageNet Validation Split. For convenience, we have provided a demo script that participants can run to locally download the images onto their machines. For reference you can see a json of all the valid images (here)[https://huggingface.co/spaces/representational-alignment/iclr2026-realign-challenge/resolve/main/configs/red_team_stimuli_catalog.jsonl] You will need about 180 GB of space to store the image datasets.
+
+Making submissions using private Hugging Face datasets
+You can optionally host the model/stimulus selections as a Hugging Face Dataset and paste the dataset link into the app under the appropriate team tab. These datasets must be private (do not publish public submissions). For end-to-end examples, refer to scripts/submit_blue_hf_dataset.py and scripts/submit_red_hf_dataset.py.
+
+Note that generally it might take a few minutes for your submission to be processed and appear on the leaderboard. After you click 'Submit', check back in around 20 minutes to ensure your submission has been logged.
+
+Blue Team dataset
+Expected columns:
+
+model_name: string model name
+layer_name: string layer name
+Example dataset row:
+
+
+{
+  "model_name": "resnet18",
+  "layer_name": "fc"
+}
+Create the dataset (example with datasets + huggingface_hub):
+
+
+pip install datasets huggingface_hub
+
+from datasets import Dataset
+from huggingface_hub import login
+
+login(token="hf_...")  # optional if you already ran `huggingface-cli login`
+
+rows = [
+    {"model_name": "resnet18", "layer_name": "fc"},
+    {"model_name": "resnet34", "layer_name": "fc"},
+]
+ds = Dataset.from_list(rows)
+ds.push_to_hub("your-username/blue-team-submission", private=True)
+Paste the dataset link into the app under the Blue Team tab:
+
+
+your-username/blue-team-submission
+Red Team dataset
+Expected columns:
+
+dataset_name: string dataset name
+image_identifier: string image identifier within the dataset
+Example dataset row:
+
+
+{
+  "dataset_name": "imagenet_val",
+  "image_identifier": "ILSVRC2012_val_00000001.JPEG"
+}
+Create the dataset:
+
+
+pip install datasets huggingface_hub
+
+from datasets import Dataset
+from huggingface_hub import login
+
+login(token="hf_...")  # optional if you already ran `huggingface-cli login`
+
+rows = [
+    {
+        "dataset_name": "imagenet_val",
+        "image_identifier": "ILSVRC2012_val_00000001.JPEG",
+    },
+    {
+        "dataset_name": "objectnet",
+        "image_identifier": "objectnet-1.0/images/baking_sheet/01f362ca48a547c.png",
+    },
+]
+ds = Dataset.from_list(rows)
+ds.push_to_hub("your-username/red-team-submission", private=True)
+Paste the dataset link into the app under the Red Team tab:
+
+
+your-username/red-team-submission
+Access token (for private datasets)
+Go to your Hugging Face account settings: https://huggingface.co/settings/tokens
+Create a new token with the Read scope.
+Copy the token (it starts with hf_...).
+Paste it into the "HuggingFace access token" textbox in the app.
