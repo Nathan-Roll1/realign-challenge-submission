@@ -27,7 +27,7 @@ BLUE_REPORT_FIG = ROOT / "submissions" / "blue_team_real_cka_matrix.png"
 RED_REPORT_FIG = ROOT / "submissions" / "red_team_real_gram_insight.png"
 OUT = ROOT / "figures" / "iclr_5slide"
 
-BG = "#fbfaf7"
+BG = "#fff"
 INK = "#080808"
 MUTED = "#77736a"
 BLUE = "#0072b2"
